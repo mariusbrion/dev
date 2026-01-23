@@ -110,6 +110,17 @@
             font-weight: bold;
         }
 
+        /* Style spécifique pour les balises code (colonnes et fichiers) */
+        code {
+            background: rgba(226, 232, 240, 0.8);
+            padding: 2px 6px;
+            border-radius: 4px;
+            font-family: Consolas, 'Courier New', monospace;
+            font-size: 0.95em;
+            color: #2d3748;
+            font-weight: 500;
+        }
+
         /* SECTION PDF */
         .pdf-section {
             background: rgba(255, 255, 255, 0.95);
@@ -223,7 +234,7 @@
             <ul class="steps-list">
                 <li>
                     <strong>Préparation du fichier</strong><br>
-                    Commencez avec un fichier d'adresses à 4 colonnes : Rue (salarié), Commune (salarié), Code postal (salarié), et Commune (site travail employeur). Plus ces adresses sont détaillées (ex: style Google Maps), plus le résultat sera précis, un outil de correction et développement des adresses par IA est fourni dans la section "plus d'outils...". Créer un fichier .csv est très simple depuis Excel il vous suffit de faire "enregistrer sous" et de choisir le format .csv
+                    Commencez avec un fichier d'adresses à 4 colonnes : <code>Rue (salarié)</code>, <code>Commune (salarié)</code>, <code>Code postal (salarié)</code>, et <code>Commune (site travail employeur)</code>. Plus ces adresses sont détaillées (ex: style Google Maps), plus le résultat sera précis, un outil de correction et développement des adresses par IA est fourni dans la section "plus d'outils...". Créer un fichier <code>.csv</code> est très simple depuis Excel il vous suffit de faire "enregistrer sous" et de choisir le format <code>.csv</code>
                 </li>
                 <li>
                     <strong>Importation Intelligente</strong><br>
@@ -235,7 +246,7 @@
                 </li>
                 <li>
                     <strong>Téléchargement des Résultats</strong><br>
-                    Vous obtiendrez trois fichiers : un .csv qui vous permettra de connaître la part en % d'employés en fonction de la distance, et deux fichiers .geojson (formats utilisés pour la cartographie, voir le tutoriel).
+                    Vous obtiendrez trois fichiers : un <code>.csv</code> qui vous permettra de connaître la part en % d'employés en fonction de la distance, et deux fichiers <code>.geojson</code> (formats utilisés pour la cartographie, voir le tutoriel).
                 </li>
             </ul>
 
