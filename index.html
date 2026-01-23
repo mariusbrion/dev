@@ -132,11 +132,12 @@
 
         .pdf-container {
             width: 100%;
-            height: 600px;
+            height: 800px; /* Hauteur augmentée */
             border-radius: 12px;
             overflow: hidden;
             border: 1px solid #e2e8f0;
             background: #f7fafc;
+            margin-bottom: 30px; /* Espace ajouté sous le PDF */
         }
 
         /* AUTRES OUTILS */
@@ -206,7 +207,7 @@
         }
 
         @media (max-width: 768px) {
-            .pdf-container { height: 400px; }
+            .pdf-container { height: 500px; } /* Hauteur mobile augmentée également */
         }
     </style>
 </head>
@@ -259,13 +260,18 @@
 
         <!-- SECTION PDF -->
         <div class="pdf-section">
-            <h2 style="margin-bottom: 20px;">📘 Guide & Documentation</h2>
+            <h2 style="margin-bottom: 20px;">📘 Pourquoi Marius?</h2>
             <div class="pdf-container">
                 <iframe src="test.pdf#toolbar=0&navpanes=0" width="100%" height="100%" style="border: none;">
                     <p>Votre navigateur ne peut pas afficher le PDF. 
                        <a href="test.pdf">Cliquez ici pour le consulter.</a>
                     </p>
                 </iframe>
+            </div>
+            <div style="text-align: center;">
+                <a href="https://mariusbrion.github.io/convertisseurcsv/" target="_blank" class="main-tool-button pulse">
+                    Démarrer l'analyse 🚀
+                </a>
             </div>
         </div>
 
